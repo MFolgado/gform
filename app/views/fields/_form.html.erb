@@ -15,13 +15,14 @@
     <%= f.label :name %><br>
     <%= f.text_field :name %>
   </div>
+
   
 
   <div class="field">
       <%= f.label :type %>
       <%= f.select :type_id, 
                    Type.all.collect {|p| [ p.name.capitalize, p.id ] }, {include_blank: 'Escolha o tipo do campo'} %>
-      
+
   </div>
 
   <div class="actions">

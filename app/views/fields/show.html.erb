@@ -4,6 +4,14 @@
   <strong>Name:</strong>
   <%= @field.name %>
 </p>
+<p>
+  <strong>Tipo</strong>
+  <%= @field.type_id%>
+</p>
+<p>
+  <strong>Name:</strong>
+  <%= @field.value %>
+</p>
 
 <%= link_to 'Edit', edit_field_path(@field) %> |
 <%= link_to 'Back', fields_path %>
