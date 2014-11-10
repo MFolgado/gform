@@ -1,16 +1,24 @@
 class TypesController < ApplicationController
   before_action :set_type, only: [:show, :edit, :update, :destroy]
 
+
   # GET /types
   # GET /types.json
   def index
     @types = Type.all
   end
 
+ def validation_name
+
+ end
+
   # GET /types/1
   # GET /types/1.json
+
   def show
   end
+
+
 
   # GET /types/new
   def new
