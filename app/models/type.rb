@@ -9,4 +9,6 @@ class Type < ActiveRecord::Base
             length: {minimum: 4, message: " deve ter no mínimo 4 caracteres!"},
             uniqueness: {case_sensitive: false, message: " já existente!"}
 
+
+
 end

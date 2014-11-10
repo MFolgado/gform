@@ -8,9 +8,7 @@ class TypesController < ApplicationController
     @types = Type.all
   end
 
- def validation_name
-
- end
+ 
 
   # GET /types/1
   # GET /types/1.json

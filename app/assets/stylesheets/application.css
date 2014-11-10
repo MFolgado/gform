@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+ table.show{
+  width: 80%;
+}
+
+
+table, td, th , tr .show{
+
+  
+  border : 1px solid black;
+  margin-left : 90px;
+  margin-top : 30px;  
+  font-size: 15px;
+  font-family: arial;
+  border-collapse: collapse;
+  text-align:center;
+}
